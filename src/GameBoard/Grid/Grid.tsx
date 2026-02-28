@@ -87,7 +87,7 @@ export default function Grid(props: GridProps) {
             }
             if (food.isPositionEqual(snakeHead)) {
                 snake.increaseLength();
-                if (firstEat) {firstEat = false; sendMessage("Don't eat the rocks!");} else {
+                if (firstEat) {firstEat = false; sendMessage("Don't eat the baidehi!");} else {
                     sendMessage(kingMessage());
                 }
                 setFoodPosition(board.getNewFood());

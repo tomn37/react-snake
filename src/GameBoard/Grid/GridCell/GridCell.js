@@ -1,7 +1,7 @@
 import React from 'react';
 import snake from '../../../Assets/snake.png';
 import bulldozer from '../../../Assets/bulldozer.jpg';
-import rock from '../../../Assets/rock.jfif';
+import rock from '../../../Assets/baidehi.jpg';
 import { Direction } from '../../../Models/Direction';
 
 function GridCell(props) {
